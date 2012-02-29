@@ -1,0 +1,79 @@
+\documentclass[a4paper,13pt]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[francais]{babel}
+\usepackage{lmodern}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2cm, right=2cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{url}
+\lstset{
+  language=C,
+  basicstyle=\footnotesize,
+  numberstyle=\normalsize,
+}
+\pagestyle{fancy}
+\lhead{Chapitre \thechapter}
+\rhead{Travail Personnel Encadré}
+\usepackage{color}
+\cfoot{\thepage}
+
+\lstset{numbers=left, frame=single}
+
+\title{Travail Personnel Encadré \\
+Comment résoudre un problème avec un programme ?
+}
+\author{
+  LOPEZ Aliaume \and 
+  DESMARAIS Yann \and 
+  SÉVIGNÉ Alfred 
+  \thanks{
+    Mme Sirlin | Mr Gœtz   
+  }
+}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\newpage
+
+\section*{Introduction}
+  \input{Parties/Yann/intro.tex}
+
+\part{Mise en place du projet}
+  \chapter{Études préliminaires}
+	  \input{Parties/Yann/partie1.tex}
+  \chapter{Cahier des charges de la simulation}
+    \input{Parties/Alfred/global.tex}
+    
+\part{Réalisation du projet}
+  \chapter{Le programme}
+    \input{Parties/Ali/programme.tex}
+  \chapter{Simulation des Cellules}
+    \input{Parties/Ali/cellules.tex}
+  \chapter{Simulation des UV}
+    \input{Parties/Yann/uv.tex}
+\part{Retrospective}
+  \chapter{Programme final}
+   
+  \chapter{Limites et approfondissements}
+     \input{Parties/Ali/limites.tex}
+\appendix
+\chapter{Définition de l'Algorithmie}
+  \input{Annexes/algorithmie.tex}
+\chapter{Complexité algorithmique}
+  \input{Annexes/complexite.tex}
+\chapter{Archiver des données}
+  \input{Annexes/structures.tex}
+\chapter{Concepts avancés de programmation}
+\chapter{Expériences diverses et variées}
+
+
+\end{document}

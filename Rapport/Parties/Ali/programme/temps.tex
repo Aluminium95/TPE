@@ -1,0 +1,21 @@
+L'ordinateur ne gère pas le temps nativement. Heureusement la SDL apporte certaines fonctions 
+pour attendre un certain nombre de millisecondes. La gestion du temps 
+dans une simulation est primordiale, et complexe.
+
+Notre approche a été de raisonner en cycles cellulaires, ce qui est plus simple, mais moins fluide.
+
+Plutôt que de mettre des «~wait~» SDL dans notre boucle principale, nous avons choisi de lancer 
+deux processus en parallèle de la gestion des évènements grâce à la fonction SDL «~timer~» : 
+  \begin{itemize}
+    \item L'affichage, lancé toutes les 20 millisecondes
+    \item L’exécution de simulation, lancé toutes les 20 millisecondes aussi
+  \end{itemize}
+  
+Bien sûr il a fallu faire des conversions en heure, en minutes, en secondes. Du fait que le programme soit configurable, il a été d'autant plus difficile de le faire, car au lieu d'ajuster une bonne foi pour toutes les paramètres, il a fallu trouver toutes les opérations pour que les calculs fonctionnent tout le temps.
+
+Par exemple quand on demande que toutes les $N$ secondes (réelles) une cellule se divise, il faut :
+  \begin{itemize}
+    \item $N \times 50$ pour donner des secondes (20 millisecondes entre chaque tour)
+    \item À chaque tour la cellule vérifie que son nombre de tour de boucle accumulé est divisible par 
+le nombre de tour de boucle nécessaire à une division : $50N$.
+  \end{itemize}
