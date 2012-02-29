@@ -1,0 +1,11 @@
+#! /bin/bash
+
+paquets="gtk+-3.0"
+
+l=''
+for pkg in $paquets
+do
+	l="${l}--pkg ${pkg} "
+done
+CMD="valac $l -o programme *.vala"
+$CMD
