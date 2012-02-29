@@ -8,6 +8,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{listings}
+\usepackage{
 \usepackage[top=2.5cm, bottom=2.5cm, left=2cm, right=2cm]{geometry}
 \usepackage{fancyhdr}
 \usepackage{listings}
@@ -57,6 +58,7 @@ Comment résoudre un problème avec un programme ?
   \chapter{Le programme}
     \input{Parties/Ali/programme.tex}
   \chapter{Simulation des Cellules}
+		\input{Parties/Yann/cellules.tex}
     \input{Parties/Ali/cellules.tex}
   \chapter{Simulation des UV}
     \input{Parties/Yann/uv.tex}
