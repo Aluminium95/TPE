@@ -1,0 +1,55 @@
+\section{Avant d'implémenter}
+Avant de réaliser la simulation il faut savoir que 
+la mise en place des cellules dans la simulation relève de deux choses : 
+\begin{itemize}
+	\item La mise en place d'une classe Gérant de simulation
+	\item La mise en place d'une classe Cellule
+\end{itemize}
+
+La cellule se contente d'exister, de mourrir, de muter, d'avoir une couleur, une position. Le Gérant lui, est l'environnement de la cellule, il contient toutes les cellules d'une simulation, et c'est lui qui les traites. Pour afficher les cellules, on demande au gérant de le faire. Pour ajouter une cellule à une position, on demande au gérant, quand une cellule veut se diviser, elle demande au gérant, parce que lui sait si elle peut se diviser, ou s'il n'y a plus d'espace libre autour d'elle.
+
+Le code complexe se trouvera donc dans la classe Gérant. Elle est avec le système de boucle, le centre du code, autour duquel le reste s'articule.
+
+\section{Cellule}
+Définition des cellules et de leur représentation
+
+\section{Gérant}
+\subsection{Définition}
+Nous devons définir les actions du gérant : 
+\begin{itemize}
+	\item Ajouter une cellule
+	\item Tuer une cellule
+	\item Diviser une cellule
+	\item Dessiner les cellules
+	\item Faire exécuter un cycle à toutes les cellules
+\end{itemize}
+
+Devant ceci il nous faut un moyen de conserver les cellules efficacement.
+Pour cela il faut connaître les structures de données décrites dans l'annexe \ref{DefTableaux} et \ref{DefListe}. Pour choisir entre une liste et un tableau\footnote{Il existe d'autres structures, mais pour cette simulation, liste et tableaux semblaient les plus pertinentes}, il faut avant tout connaître nos besoins. Au vu des actions définies plus haut voici les actions par ordre d'occurence à l'exécution : 
+\begin{enumerate}
+	\item Parcourir 
+	\item Supprimer
+	\item Ajouter
+\end{enumerate}
+
+Au vu des annexes \ref{DefTableaux} et \ref{DefListe}, le tableau semple beaucoup plus adapté, étant donné qu'il ne demande qu'un temps constant pour lire une valeur (cf \ref{Complexite}).
+
+La conservation n'a rien à voir avec l'affichage, puisque toute Cellule a une position sur l'écran, indépendante de sa position dans le tableau.
+
+Néanmoins, nous avons décidé pour plus de simplicité, de gérer aussi l'affichage des cellules sous la forme de grille. Donc, la position d'une cellule dépendra de sa case. Ceci n'est pas obligatoire, mais les points suivants défendent cette idée : 
+\begin{itemize}
+	\item Gérer les cellules «~librement~» induit une gestion des collisions, chose complexe et coûteuse en rapidité quand elle n'est pas optimisée
+	\item Gérer les cellules en grille permet de mieux contrôler des divisions, et permet d'effectuer plus facilement une grille de comptage que des cellules libres 
+	\item Gérer les cellules en grille permet de ne JAMAIS redimensionner le tableau, donc 
+	toutes les opérations sont à complexité constante.
+\end{itemize}
+
+Nous avons donc réaliser la conservation des cellules dans un tableau à deux entrées, lignes et colones. En réalité, c'est un tableau de tableaux de cellules\footnote{Un tableau est une suite d'élément, sur une seule «~ligne~»}. Ce qui revient à un tableau à double entrée. On accède donc à une cellule en faisant : Gérant.recupCell (colone,ligne).
+
+Les cases seront soit vide, soit avec une cellule. Dans le code, il faudra donc bien penser à toujours vérifier que la case contient une cellule avant de faire une action, ce qui cause malheureusement beaucoup de soucis qui sont difficiles à voir facilement.
+
+Il en résulte que les cellules sont sous la forme de grille, ce qui laisse paraître une certaine rigidité dans la simulation. Néanmoins, quand les cellules sont petites, la grille aussi est petite, et le problème de «~cases~» se ressent moins.
+
+\subsection{Manipuler les cellules}
+	Ici la gestion des cellules -- un peu barbant et pas forcément judicieux
+\subsection{Caca}

@@ -13,6 +13,9 @@
 \usepackage{fancyhdr}
 \usepackage{listings}
 \usepackage{url}
+
+\newcommand{\chimiecite}[1]{\[\mathrm{#1}\]}
+
 \lstset{
   language=C,
   basicstyle=\footnotesize,
@@ -50,10 +53,10 @@ Comment résoudre un problème avec un programme ?
 
 \part{Mise en place du projet}
   \chapter{Études préliminaires}
-	  \input{Parties/Yann/partie1.tex}
+ 	  \input{Parties/Yann/partie1.tex}
   \chapter{Cahier des charges de la simulation}
     \input{Parties/Alfred/global.tex}
-    
+     
 \part{Réalisation du projet}
   \chapter{Le programme}
     \input{Parties/Ali/programme.tex}
@@ -61,21 +64,24 @@ Comment résoudre un problème avec un programme ?
 		\input{Parties/Yann/cellules.tex}
     \input{Parties/Ali/cellules.tex}
   \chapter{Simulation des UV}
-    \input{Parties/Yann/uv.tex}
+     \input{Parties/Yann/uv.tex}
 \part{Retrospective}
   \chapter{Programme final}
-   
   \chapter{Limites et approfondissements}
      \input{Parties/Ali/limites.tex}
+
 \appendix
 \chapter{Définition de l'Algorithmie}
-  \input{Annexes/algorithmie.tex}
+\input{Annexes/poo.tex}
 \chapter{Complexité algorithmique}
-  \input{Annexes/complexite.tex}
+\input{Annexes/complexite.tex}
 \chapter{Archiver des données}
-  \input{Annexes/structures.tex}
-\chapter{Concepts avancés de programmation}
-\chapter{Expériences diverses et variées}
+	\input{Annexes/structures.tex}
+\chapter{Programmation Orientée Objet}
+	%\input{Annexes/poo.tex}
+
+\chapter{Levures}
+	\input{Annexes/levures.tex}
 
 
 \end{document}
