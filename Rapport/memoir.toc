@@ -16,23 +16,22 @@
 \contentsline {section}{\numberline {3.7}La gestion du temps}{9}
 \contentsline {chapter}{\numberline {4}Simulation des Cellules}{10}
 \contentsline {section}{\numberline {4.1}Choix des cellules}{10}
-\contentsline {section}{\numberline {4.2}Exp\IeC {\'e}rience personnelle}{10}
-\contentsline {subsection}{\numberline {4.2.1}Protocole}{10}
-\contentsline {subsubsection}{Mat\IeC {\'e}riel}{10}
+\contentsline {section}{\numberline {4.2}Exp\IeC {\'e}rience personnelle}{11}
+\contentsline {subsection}{\numberline {4.2.1}Protocole}{11}
+\contentsline {subsubsection}{Mat\IeC {\'e}riel}{11}
 \contentsline {subsubsection}{\IeC {\'E}tapes}{11}
 \contentsline {subsection}{\numberline {4.2.2}Interpr\IeC {\'e}tation et r\IeC {\'e}sultats}{11}
-\contentsline {section}{\numberline {4.3}Simulation}{11}
-\contentsline {chapter}{\numberline {5}Simulation des UV}{12}
-\contentsline {part}{III\hspace {1em}Retrospective}{13}
-\contentsline {chapter}{\numberline {6}Programme final}{14}
-\contentsline {chapter}{\numberline {7}Limites et approfondissements}{15}
-\contentsline {chapter}{\numberline {A}D\IeC {\'e}finition de l'Algorithmie}{16}
-\contentsline {chapter}{\numberline {B}Complexit\IeC {\'e} algorithmique}{17}
-\contentsline {section}{\numberline {B.1}Definition}{17}
-\contentsline {chapter}{\numberline {C}Archiver des donn\IeC {\'e}es}{18}
-\contentsline {section}{\numberline {C.1}Les Types}{18}
-\contentsline {section}{\numberline {C.2}Le pointeur}{18}
-\contentsline {section}{\numberline {C.3}Tableaux}{19}
-\contentsline {section}{\numberline {C.4}Ennum\IeC {\'e}ration}{20}
-\contentsline {section}{\numberline {C.5}Structures}{21}
-\contentsline {section}{\numberline {C.6}Listes}{21}
+\contentsline {chapter}{\numberline {5}Simulation des UV}{13}
+\contentsline {part}{III\hspace {1em}Retrospective}{14}
+\contentsline {chapter}{\numberline {6}Programme final}{15}
+\contentsline {chapter}{\numberline {7}Limites et approfondissements}{16}
+\contentsline {chapter}{\numberline {A}D\IeC {\'e}finition de l'Algorithmie}{17}
+\contentsline {chapter}{\numberline {B}Complexit\IeC {\'e} algorithmique}{18}
+\contentsline {section}{\numberline {B.1}Definition}{18}
+\contentsline {chapter}{\numberline {C}Archiver des donn\IeC {\'e}es}{19}
+\contentsline {section}{\numberline {C.1}Les Types}{19}
+\contentsline {section}{\numberline {C.2}Le pointeur}{19}
+\contentsline {section}{\numberline {C.3}Tableaux}{20}
+\contentsline {section}{\numberline {C.4}Ennum\IeC {\'e}ration}{21}
+\contentsline {section}{\numberline {C.5}Structures}{22}
+\contentsline {section}{\numberline {C.6}Listes}{22}

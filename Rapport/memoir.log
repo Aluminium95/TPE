@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.1.11)  29 FEB 2012 19:09
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.1.11)  29 FEB 2012 20:37
 entering extended mode
  %&-line parsing enabled.
 **memoir.tex
@@ -454,47 +454,54 @@ LaTeX Warning: Reference `DefPOO' on page 8 undefined on input line 21.
 (./Parties/Ali/programme/event.tex) (./Parties/Ali/programme/temps.tex))
 [9]
 Chapitre 4.
-(./Parties/Ali/cellules.tex
+(./Parties/Yann/cellules.tex <Images/levure.JPG, id=63, 4930.42pt x 3276.24pt>
+File: Images/levure.JPG Graphic file (type jpg)
 
-LaTeX Warning: Reference `SitoMala' on page 10 undefined on input line 26.
+<use Images/levure.JPG>
+
+LaTeX Warning: Reference `SitoMala' on page 10 undefined on input line 29.
 
 [10
 
-] (/usr/share/texmf/tex/latex/ucs/data/uni-1.def
+ <./Images/levure.JPG>]
+<Images/six_levures.JPG, id=67, 4930.42pt x 3276.24pt>
+File: Images/six_levures.JPG Graphic file (type jpg)
+
+<use Images/six_levures.JPG> (/usr/share/texmf/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2004/10/17 UCS: Unicode data U+0100..U+01FF
 )
 
-LaTeX Warning: Reference `Biblio' on page 11 undefined on input line 61.
+LaTeX Warning: Reference `Biblio' on page 11 undefined on input line 67.
 
-) [11]
+[11 <./Images/six_levures.JPG>]) (./Parties/Ali/cellules.tex) [12]
 Chapitre 5.
-(./Parties/Yann/uv.tex) [12
+(./Parties/Yann/uv.tex) [13
 
-] [13
+] [14
 
 ]
 Chapitre 6.
-[14
+[15
 
 ]
 Chapitre 7.
-(./Parties/Ali/limites.tex) [15
+(./Parties/Ali/limites.tex) [16
 
 ]
 Annexe A.
-(./Annexes/algorithmie.tex) [16
+(./Annexes/algorithmie.tex) [17
 
 ]
 Annexe B.
-(./Annexes/complexite.tex) [17
+(./Annexes/complexite.tex) [18
 
 ]
 Annexe C.
 (./Annexes/structures.tex
-<Annexes/Images/tableau.png, id=90, 346.29375pt x 394.47375pt>
+<Annexes/Images/tableau.png, id=96, 346.29375pt x 394.47375pt>
 File: Annexes/Images/tableau.png Graphic file (type png)
 
-<use Annexes/Images/tableau.png> [18
+<use Annexes/Images/tableau.png> [19
 
  <./Annexes/Images/tableau.png (PNG copy)>]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 49.
@@ -504,7 +511,7 @@ File: omslmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 49.
 
-<Annexes/Images/pointeurs.png, id=95, 261.22594pt x 480.29437pt>
+<Annexes/Images/pointeurs.png, id=100, 261.22594pt x 480.29437pt>
 File: Annexes/Images/pointeurs.png Graphic file (type png)
 
 <use Annexes/Images/pointeurs.png>
@@ -514,25 +521,28 @@ File: t1lmtt.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
 File: Annexes/Images/tableau.png Graphic file (type png)
 
-<use Annexes/Images/tableau.png> [19 <./Annexes/Images/pointeurs.png (PNG copy)
->] [20] <Annexes/Images/liste.jpg, id=105, 478.78876pt x 164.86594pt>
+<use Annexes/Images/tableau.png> [20 <./Annexes/Images/pointeurs.png (PNG copy)
+>] [21] <Annexes/Images/liste.jpg, id=110, 478.78876pt x 164.86594pt>
 File: Annexes/Images/liste.jpg Graphic file (type jpg)
 
 <use Annexes/Images/liste.jpg>
-<Annexes/Images/liste_ajout.jpg, id=106, 477.28313pt x 232.61906pt>
+<Annexes/Images/liste_ajout.jpg, id=111, 477.28313pt x 232.61906pt>
 File: Annexes/Images/liste_ajout.jpg Graphic file (type jpg)
 
-<use Annexes/Images/liste_ajout.jpg> [21 <./Annexes/Images/liste.jpg> <./Annexe
+<use Annexes/Images/liste_ajout.jpg> [22 <./Annexes/Images/liste.jpg> <./Annexe
 s/Images/liste_ajout.jpg>] (./memoir.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) ) 
 Here is how much of TeX's memory you used:
- 6521 strings out of 256216
- 80197 string characters out of 1917072
+ 6534 strings out of 256216
+ 80472 string characters out of 1917072
  137829 words of memory out of 1500000
- 9623 multiletter control sequences out of 10000+200000
+ 9631 multiletter control sequences out of 10000+200000
  89056 words of font info for 70 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  29i,11n,49p,1842b,1276s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -549,9 +559,9 @@ are/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb>
-Output written on memoir.pdf (22 pages, 456786 bytes).
+Output written on memoir.pdf (23 pages, 10452123 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
+ 171 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
