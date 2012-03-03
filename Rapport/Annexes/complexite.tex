@@ -1,0 +1,22 @@
+\section{Definition}
+  \begin{quotation}
+    Quand les scientifiques se sont posé la question d'énoncer formellement et rigoureusement ce qu'est l'efficacité d'un algorithme ou son contraire sa complexité, ils se sont rendus compte que la comparaison des algorithmes entre eux était nécessaire et que les outils pour le faire à l'époque1 étaient primitifs. Dans la préhistoire de l'informatique (les années 1950), la mesure publiée, si elle existait, était souvent dépendante du processeur utilisé, des temps d'accès à la mémoire vive et de masse, du langage de programmation et du compilateur utilisé.
+Une approche indépendante des facteurs matériels était donc nécessaire pour évaluer l'efficacité des algorithmes. Donald Knuth fut un des premiers à l'appliquer systématiquement dès les premiers volumes de sa série The Art of Computer Programming. 
+    \begin{flushright}
+      Wikipédia
+    \end{flushright}
+  \end{quotation}
+  
+  La complexité algorithmique est donc une mesure indépendante de tout facteur matériel, ou même logiciel.
+  Il existe plusieures manières de calculer la complexité algorithmique, nous nous contenterons d'utiliser la plus 
+  simpliste, celle qui définit l'ordre de grandeur du nombre d'opération nécessaires à la réalisation du résultat en 
+  fonction nombre d'entrée N, dans le pire des cas.
+  
+  Par exemple le parcours d'un dictionnaire. Il y a différentes manières de coder, la méthode naïve est la suivante : parcourir tous les noms jusqu'à tomber sur le bon. Cette méthode demande au pire pour un dictionnaire de $N$ entrées un nombre $N$ d'opération (dans le pire des cas le nom est à la fin).
+  Il existe aussi la méthode par dichotomie : prendre le nom du milieu. Regarder si le nom cherché est au dessus ou en dessous.
+  prendre encore la moitié, et ainsi de suite. Le principe est de découper le dictionnaire en deux à chaque fois. Dans le pire des cas pour un dictionnaire de $N$ éléments, il faudra couper le dictionnaire $log_2(N)$ fois (par définition du logarithme de base deux).
+  Le deuxième algorithme est donc beaucoup plus efficace que le premier. C'est là tout le principe de mesurer la complexité algorithmique de différentes méthodes, savoir les-quelles seront les plus efficaces.
+    Imaginons que nous voulions accéder à la valeur $N$ d'un tableau en C : il faut effectuer une addition, puis récupérer la valeur du pointeur (cf \ref{DefTableaux}), soit une complexité de $1$.
+    Mais pour accéder à la même valeur $N$ dans une liste, il faut effectuer $N$ opérations (cf \ref{DefListe}).
+    
+    C'est donc un bon indicateur afin de déterminer comment aborder un problème en fonction des utilisations que nous faisons des variables. 

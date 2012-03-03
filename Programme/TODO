@@ -1,0 +1,16 @@
+### TODO
+	-> Correction du menu :
+		» UV en action longue
+		» Modifier vie cellule
+		» Modifier temps de réplication cellule
+	-> Correction des Gérants :
+		» UV en action longue !
+	
+	-> Correction des Cellules :
+		» UV en action longue !
+		
+## Config
+	-> Ajouter les entrées :
+		» Équation de mutation ( t² ? etc … ) 
+		» Niveau de mutation avant mort
+		» Sprites à charger

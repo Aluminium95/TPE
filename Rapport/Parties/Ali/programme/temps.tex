@@ -1,0 +1,18 @@
+L'ordinateur ne gère pas le temps nativement. Et notre système de boucle principale non plus.
+Nous savons juste qu'entre chaque cycle d'affichage il s'écoule environ 20 millisecondes, idem pour les cycles d'exécution, mais avec un «~environ~» encore plus large.
+  
+Il a donc fallu faire des conversions. Du fait que le programme soit configurable, il a été d'autant plus difficile de le faire, car au lieu d'ajuster les paramètres, il a fallu trouver toutes les opérations pour que les calculs fonctionnent dans tous les cas.
+
+Par exemple quand on demande que toutes les $N$ secondes (réellement écoulées) une cellule se divise, il faut :
+  \begin{itemize}
+    \item $N \times 50$ pour donner des secondes (20 millisecondes entre chaque tour)
+    \item À chaque tour la cellule vérifie que son nombre de tour de boucle accumulé est divisible par 
+le nombre de tour de boucle nécessaire à une division : $50N$.
+  \end{itemize}
+  
+Ceci ce complexifie quand on demande en plus que 1 seconde réelle donne $N$ minutes virtuelles.
+Car tous les calculs doivent prendre en charge ce nouveau paramètre.
+
+Il n'a d'ailleurs pas été possible de le gérer partout faute de temps, c'est pour cela que l'on gère la division des cellules en secondes réelles dans la configuration.
+
+

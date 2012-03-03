@@ -1,0 +1,16 @@
+Nous savons que la majorité des éléments de la simulation seront affichés à l'écran.
+Or pour afficher quelque chose sur une surface, il faut un certain nombre d'informations : 
+\begin{itemize}
+  \item Position $(x,y)$ sur l'écran
+  \item Taille $(w,h)$
+\end{itemize}
+
+Nous dessinerons uniquement des rectangles, pour des raisons de simplicité, et parce que nous n'avons pas besoin d'autres formes géométriques dans notre simulation\footnote{En effet, même si on définit les cellules comme des cercles, pour afficher une image, il faut le rectangle de la taille de l'image, même si l'image elle même est un rond sur fond transparent}.
+
+Avec ces variables, on peut ajouter plusieurs méthodes qui seront utiles :
+\begin{itemize}
+  \item déplacer($x$,$y$); $\rightarrow$ redéfinit la position $(x,y)$
+  \item move ($x$,$y$); $\rightarrow$ effectue une translation par le vecteur $(x,y)$
+\end{itemize}
+
+Nous avons donc notre première classe : «~Rectangle~», qui sera la base pour afficher des objets à l'écran.

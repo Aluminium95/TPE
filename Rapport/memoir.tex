@@ -1,0 +1,100 @@
+\documentclass[a4paper,15pt]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[francais]{babel}
+\usepackage{lmodern}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{wrapfig}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2cm, right=2cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{url}
+
+\newcommand{\chimiecite}[1]{\[\mathrm{#1}\]}
+
+\lstset{
+  language=C,
+  basicstyle=\footnotesize,
+  numberstyle=\normalsize,
+}
+\pagestyle{fancy}
+\lhead{Chapitre \thechapter}
+\rhead{Travail Personnel Encadré}
+\usepackage{color}
+\cfoot{\thepage}
+
+\lstset{numbers=left, frame=single}
+
+\title{
+Travail Personnel Encadré \\
+Comment résoudre un problème avec un programme ?
+}
+\author{
+  \textsc{Lopez} Aliaume \and 
+  \textsc{Desmarais} Yann \and 
+  \textsc{Sévigné} Alfred
+  \thanks{
+     Remerciements
+  } \and  \\
+  Lycée Georges Pompidou, 1S1
+}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introduction}
+  \input{Parties/Yann/intro.tex}
+  
+\tableofcontents
+
+\part{Mise en place du projet}
+  \chapter{Études préliminaires}
+ 	  \input{Parties/Yann/partie1.tex}
+  \chapter{Cahier des charges de la simulation}
+    \input{Parties/Alfred/global.tex}
+     
+\part{Réalisation du projet}
+  \chapter{Le programme}
+    \input{Parties/Ali/programme.tex}
+  \chapter{Études sur les cellules}
+		\input{Parties/Yann/cellules.tex}
+  \chapter{Réalisation des cellules}
+     \input{Parties/Ali/cellules.tex}
+\part{Rétrospective}
+  \chapter{Programme final}
+    \input{Parties/Yann/programmeretro.tex}
+  \chapter{Limites et approfondissements}
+     \input{Parties/Ali/limites.tex}
+
+\begin{appendix}
+
+\chapter{Introduction à la programmation}
+  \input{Annexes/prog.tex}
+\chapter{Complexité algorithmique}
+\input{Annexes/complexite.tex}
+\chapter{Archiver des données}
+	\input{Annexes/structures.tex}
+\chapter{Programmation Orientée Objet}
+	\input{Annexes/poo.tex}
+
+\chapter{Levures}
+	\input{Annexes/levures.tex}
+
+\end{appendix}
+
+\chapter{Sitographie et Bibliographie}
+  \input{Graphie/sito.tex}
+  \input{Graphie/biblio.tex}
+  
+\part*{Fiches de Synthèse Personnelles}
+  \chapter*{\textsc{Lopez} Aliaume}
+    \input{Parties/Delation/ali.tex}
+  \chapter*{\textsc{Desmarais} Yann}
+  \chapter*{\textsc{Sévigné} Alfred}
+    \input{Parties/Delation/alf.tex}
+\end{document}

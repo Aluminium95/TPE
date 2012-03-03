@@ -1,0 +1,4 @@
+#! /bin/bash
+
+pdflatex memoir.tex
+rm *.toc *.log *.aux

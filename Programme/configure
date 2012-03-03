@@ -1,0 +1,20 @@
+#! /bin/bash 
+
+
+sortie="[CCode (cprefix = \"\", lower_case_cprefix = \"\", cheader_filename=\"`pwd`/config.h\")]"
+sortie="${sortie}
+namespace Config {"
+
+vars="DATA UI SPRITE"
+## Variables définies dans config.h
+
+for i in $vars
+do 
+	sortie="${sortie}
+			public extern const string $i;"
+done
+
+sortie="${sortie}
+}"
+
+echo "${sortie}" > Vapi/config.vapi ## écrit la chaine dans le config.vapi
