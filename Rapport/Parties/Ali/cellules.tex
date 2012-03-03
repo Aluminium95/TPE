@@ -11,7 +11,7 @@ La cellule se contente d'exister, de mourrir, de muter, d'avoir une couleur, une
 Le code complexe se trouvera donc dans la classe Gérant. Elle est avec le système de boucle, le centre du code, autour duquel le reste s'articule.
 
 \section{Cellule}
-<<<<<<< HEAD
+
 Avant de représenter une cellule il faut se demander ce que l'on va représenter. Nous avons choisi dans un premier temps de nous simplifier la tache en la considérant comme un objet simple qui a les membres suivants : 
 \begin{itemize}
 	\item un nombre de cycles
@@ -67,9 +67,6 @@ La fonction la plus importante des cellules est la division. C'est aussi la fonc
   Ces taux sont des statistiques. Dans le programme, nous avons utilisé des nombres aléatoires avec des probabilités de sortie qui correspondaient aux statistiques. Nous avons toutefois du modifier un peu la courbe des mutations, pour la rendre plus facilement modélisable en une équation simple. Pour le taux de mortalité idem.
   
   Globalement les chiffres tirés correspondent, et la simulation fait ce qu'on attend d'elle. Mais vient le problème du fait que les UV sont très agressifs, et une heure d'exposition tue déjà un peu plus de la moitié des cellules de levures, alors qu'elles mettent environ deux heures à se diviser. Il en résulte un certain décalage, entre la rapidité de réaction aux UV et la vitesse de division, qui peut rendre étrange l'utilisation de la simulation.
-=======
-Définition des cellules et de leur représentation
->>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 
 \section{Gérant}
 \subsection{Définition}
@@ -82,10 +79,8 @@ Nous devons définir les actions du gérant :
 	\item Faire exécuter un cycle à toutes les cellules
 \end{itemize}
 
-<<<<<<< HEAD
 \subsection{Stockage des cellules}
-=======
->>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
+
 Devant ceci il nous faut un moyen de conserver les cellules efficacement.
 Pour cela il faut connaître les structures de données décrites dans l'annexe \ref{DefTableaux} et \ref{DefListe}. Pour choisir entre une liste et un tableau\footnote{Il existe d'autres structures, mais pour cette simulation, liste et tableaux semblaient les plus pertinentes}, il faut avant tout connaître nos besoins. Au vu des actions définies plus haut voici les actions par ordre d'occurence à l'exécution : 
 \begin{enumerate}
@@ -113,7 +108,6 @@ Les cases seront soit vide, soit avec une cellule. Dans le code, il faudra donc 
 Il en résulte que les cellules sont sous la forme de grille, ce qui laisse paraître une certaine rigidité dans la simulation. Néanmoins, quand les cellules sont petites, la grille aussi est petite, et le problème de «~cases~» se ressent moins.
 
 \subsection{Manipuler les cellules}
-<<<<<<< HEAD
 	La gestion des cellules découle de l'utilisation d'un tableau. Le gérant doit néanmoins conserver d'autres variables, comme le nombre de cellules par exemple. Pour celui-ci, il va falloir mettre en place un compteur.
 	Le principe est d'incrémenter le compteur de 1 à chaque création, et de le décrémenter de 1 à chaque destruction de cellule. On pourrait imaginer faire cela dans chaque fonction qui crée ou détruit une cellule. Mais cela ne serait sûrement pas judicieux. Au contraire, nous utiliserons les constructeurs et destructeurs\footnote{Voir l'annexe \ref{DefPOO} sur la POO} de la Classe Cellule pour incrémenter et décrémenter. Il en découle qu'il n'y a que 2 lignes de code à ajouter, aucun risque de bug, et un code plus lisible.
 	
@@ -123,7 +117,3 @@ Il en résulte que les cellules sont sous la forme de grille, ce qui laisse para
   Pour conclure nous avons maintenant un programme fonctionnel, dont nous avons expliqué le développement en prenant l'exemple du Menu comme objet périphérique de la simulation, et dont nous avons décrit les recherches de données qui ont permis de coder la simulation elle même.
   
   Le programme fait ce qu'on veut de lui, mais il reste quand même relativement simpliste, et en cela on est en mesure de se demander s'il répond bien aux attentes de départ.
-=======
-	Ici la gestion des cellules -- un peu barbant et pas forcément judicieux
-\subsection{Caca}
->>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
