@@ -90,6 +90,7 @@ Comment résoudre un problème avec un programme ?
 \chapter{Levures}
 	\input{Annexes/levures.tex}
 
+<<<<<<< HEAD
 \end{appendix}
 
 \chapter{Sitographie et Bibliographie}
@@ -102,4 +103,7 @@ Comment résoudre un problème avec un programme ?
   \chapter*{\textsc{Desmarais} Yann}
   \chapter*{\textsc{Sévigné} Alfred}
     \input{Parties/Delation/alf.tex}
+=======
+
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 \end{document}

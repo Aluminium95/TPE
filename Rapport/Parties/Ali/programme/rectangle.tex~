@@ -13,4 +13,8 @@ Avec ces variables, on peut ajouter plusieurs méthodes qui seront utiles :
   \item move ($x$,$y$); $\rightarrow$ effectue une translation par le vecteur $(x,y)$
 \end{itemize}
 
+
+Nous avons donc notre première classe : «~Rectangle~», qui sera la base pour afficher des objets à l'écran.
+=======
 Nous avons donc notre première classe : «~Rectangle~».
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b

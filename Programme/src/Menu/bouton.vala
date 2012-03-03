@@ -72,7 +72,11 @@ namespace Menu {
 			this.active = false;
 		}
 	}
+<<<<<<< HEAD
 	/*
+=======
+	
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 	public class Label : Rectangle {
 		public string text {get;set;}
 		public SDL.Surface? img;
@@ -89,5 +93,9 @@ namespace Menu {
 		public void setImg (string src) {
 			this.img = SDLImage.load (src);
 		}
+<<<<<<< HEAD
 	}*/
+=======
+	}
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 }

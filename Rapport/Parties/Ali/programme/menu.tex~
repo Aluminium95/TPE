@@ -29,4 +29,13 @@ De cette manière on a maintenant des classes comme ceci :
 	Après ça, il faut aussi savoir que le menu a une position, donc quand on place un Bouton, il faut le placer en fonction de la position du menu, et en fonction de la taille d'un Bouton. La méthode suivante est utilisée : 
 	« $boutons.push(new Bouton (image,action, TAILLLE_BOUTON * numero_bouton + menu.x , menu.y,image_activé));$ ». Ce code se suffit, quand on crée un bouton, on lui donne deux images, une action, et la position du bouton vaut celle de la simulation, plus $N$ fois la largeur d'un bouton en $x$, en fonction du numéro du bouton.
 	
-	C'est bon, nous avons un menu fonctionnel, reste à connecter tout cela avec la boucle évènementielle et c'est terminé. Nous ne parlerons pas de la boucle évènementielle, car elle est en réalité simple. Globalement elle demande si le curseur a cliqué, si oui où. Après elle regarde sur quelle partie du programme le curseur est positionné, et un système de conditions décide de ce qu'il faut faire. Ce code n'est pas intéressant, simplement parce que c'est une suite de conditions imbriquées sans grand 
+	C'est bon, nous avons un menu fonctionnel, reste à connecter tout cela avec la boucle évènementielle et c'est terminé. Nous ne parlerons pas de la boucle évènementielle, car elle est en réalité simple. Globalement elle demande si le curseur a cliqué, si oui où. Après elle regarde sur quelle partie du programme le curseur est positionné, et un système de conditions décide de ce qu'il faut faire. Ce code n'est pas intéressant, simplement parce que c'est une suite de conditions imbriquées sans grande complexité.
+=======
+L'exemple du menu étant simple et parlant, nous montrerons comment nous avons penser 
+ce module. Dans un menu, il y a des boutons. Donc il faut un objet Menu\footnote{De manière à être 
+utilisable dans d'autres programmes, ou pouvoir faire plusieurs menus}, et un objet Bouton. Un Bouton est un objet affiché à l'écran, il faut donc le faire hériter de Rectangle.
+
+De cette manière on a maintenant des classes comme ceci : 
+  
+Ce qui n'est pas trop mal. Mais un menu n'est rien sans une gestion des clic et des évènements !
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b

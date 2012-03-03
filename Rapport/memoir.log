@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.1.11)  3 MAR 2012 15:39
+=======
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.1.11)  29 FEB 2012 23:08
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 entering extended mode
  %&-line parsing enabled.
 **memoir.tex
@@ -294,11 +298,16 @@ Package color Info: Driver file: pdftex.def on input line 130.
 )
 
 LaTeX Warning: Unused global option(s):
+<<<<<<< HEAD
     [15pt].
+=======
+    [13pt].
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 
 (./memoir.aux)
 \openout1 = `memoir.aux'.
 
+<<<<<<< HEAD
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
 LaTeX Font Info:    Checking defaults for T1/lmr/m/n on input line 46.
@@ -315,11 +324,33 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
+=======
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/lmr/m/n on input line 44.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 44.
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 
 (/usr/share/texmf/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2003/11/29 Fixes to fontencodings LGR, T3
 )
+<<<<<<< HEAD
 LaTeX Info: Redefining \dots on input line 46.
+=======
+LaTeX Info: Redefining \dots on input line 44.
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 -------------------- Geometry parameters
 paper: a4paper
 landscape: --
@@ -363,45 +394,75 @@ driver: pdftex
 (/usr/share/texmf/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2004/10/17 UCS: Unicode data U+0000..U+00FF
 )
+<<<<<<< HEAD
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 48.
+=======
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 46.
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
+<<<<<<< HEAD
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 48.
+=======
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 46.
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
+<<<<<<< HEAD
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 48.
+=======
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 46.
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
+<<<<<<< HEAD
 LaTeX Font Info:    Try loading font information for OMX+lmex on input line 48.
+=======
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 46.
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
+<<<<<<< HEAD
 (Font)              <12> on input line 48.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 48.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 48.
 LaTeX Font Info:    Try loading font information for U+msa on input line 48.
+=======
+(Font)              <12> on input line 46.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 46.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 46.
+LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 
 (/usr/share/texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
+<<<<<<< HEAD
 LaTeX Font Info:    Try loading font information for U+msb on input line 48.
+=======
+LaTeX Font Info:    Try loading font information for U+msb on input line 46.
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 
 (/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
+<<<<<<< HEAD
 (Font)              <9> on input line 48.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 48.
@@ -427,17 +488,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 ) [1] (./memoir.toc
+=======
+(Font)              <9> on input line 46.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 46.
+ [1
+
+{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./memoir.toc
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 4.
+<<<<<<< HEAD
  [2
+=======
+ [1
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 
 ])
 \tf@toc=\write3
 \openout3 = `memoir.toc'.
 
+<<<<<<< HEAD
  [3] [4
+=======
+ [2] (./Parties/Yann/intro.tex
+(/usr/share/texmf/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2004/10/17 UCS: Unicode data U+2000..U+20FF
+)) [3] [4
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 
 ]
 Chapitre 1.
@@ -454,7 +534,11 @@ Chapitre 2.
 
 pdfTeX warning: pdflatex (file ./Images/maquette.pdf): PDF inclusion: found PDF
  version <1.5>, but at most version <1.4> allowed
+<<<<<<< HEAD
 <Images/maquette.pdf, id=34, 284.52753pt x 284.52753pt>
+=======
+<Images/maquette.pdf, id=32, 284.52753pt x 284.52753pt>
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 File: Images/maquette.pdf Graphic file (type pdf)
 
 <use Images/maquette.pdf>) [7
@@ -470,6 +554,7 @@ Chapitre 3.
 (./Parties/Ali/programme.tex (./Parties/Ali/programme/contexte.tex [9
 
 ]
+<<<<<<< HEAD
 <Images/capture.png, id=61, 642.4pt x 240.9pt>
 File: Images/capture.png Graphic file (type png)
  <use Images/capture.png>)
@@ -504,6 +589,28 @@ OML/lmm/m/it/10 numero[]outon \OT1/lmr/m/n/10 + \OML/lmm/m/it/10 menu:x; menu:y
 )) [12 <./Images/heritage_menu.png>]
 Chapitre 4.
 (./Parties/Yann/cellules.tex <Images/malassez.JPG, id=84, 1284.8pt x 963.6pt>
+=======
+<Images/capture.png, id=60, 642.4pt x 240.9pt>
+File: Images/capture.png Graphic file (type png)
+ <use Images/capture.png>)
+(./Parties/Ali/programme/boucle.tex
+<Images/boucle_naive.png, id=61, 931.48pt x 1080.035pt>
+File: Images/boucle_naive.png Graphic file (type png)
+
+<use Images/boucle_naive.png> [10 <./Images/capture.png> <./Images/boucle_naive
+.png>] <Images/fonctionnement_programme.png, id=67, 463.331pt x 337.26pt>
+File: Images/fonctionnement_programme.png Graphic file (type png)
+
+<use Images/fonctionnement_programme.png>
+
+LaTeX Warning: Reference `DefThread' on page 11 undefined on input line 27.
+
+) (./Parties/Ali/programme/rectangle.tex) (./Parties/Ali/programme/menu.tex)
+(./Parties/Ali/programme/temps.tex [11 <./Images/fonctionnement_programme.png>]
+)) [12]
+Chapitre 4.
+(./Parties/Yann/cellules.tex <Images/malassez.JPG, id=79, 1284.8pt x 963.6pt>
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 File: Images/malassez.JPG Graphic file (type jpg)
 
 <use Images/malassez.JPG>
@@ -513,15 +620,23 @@ LaTeX Warning: Reference `SitoMala' on page 13 undefined on input line 29.
 [13
 
  <./Images/malassez.JPG>]
+<<<<<<< HEAD
 <Images/six_levures.JPG, id=88, 4930.42pt x 3276.24pt>
 File: Images/six_levures.JPG Graphic file (type jpg)
 
 <use Images/six_levures.JPG> <Images/levure.JPG, id=89, 4930.42pt x 3276.24pt>
+=======
+<Images/six_levures.JPG, id=83, 4930.42pt x 3276.24pt>
+File: Images/six_levures.JPG Graphic file (type jpg)
+
+<use Images/six_levures.JPG> <Images/levure.JPG, id=84, 4930.42pt x 3276.24pt>
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 File: Images/levure.JPG Graphic file (type jpg)
 
 <use Images/levure.JPG> (/usr/share/texmf/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2004/10/17 UCS: Unicode data U+0100..U+01FF
 )
+<<<<<<< HEAD
 [14 <./Images/six_levures.JPG> <./Images/levure.JPG>]) [15]
 Chapitre 5.
 (./Parties/Ali/cellules.tex <Images/div_1.png, id=96, 301.125pt x 301.125pt>
@@ -573,10 +688,42 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <8> not available
 ]) [24]
 Annexe B.
 (./Annexes/complexite.tex) [25
+=======
+
+LaTeX Warning: Reference `Biblio' on page 14 undefined on input line 69.
+
+) (./Parties/Ali/cellules.tex [14 <./Images/six_levures.JPG> <./Images/levure.J
+PG>]
+
+LaTeX Warning: Reference `Complexite' on page 15 undefined on input line 35.
+
+) [15]
+Chapitre 5.
+(./Parties/Yann/uv.tex) [16
+
+] [17
+
+]
+Chapitre 6.
+[18
+
+]
+Chapitre 7.
+(./Parties/Ali/limites.tex) [19
+
+]
+Annexe A.
+(./Annexes/poo.tex [20
+
+]) [21]
+Annexe B.
+(./Annexes/complexite.tex) [22
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 
 ]
 Annexe C.
 (./Annexes/structures.tex
+<<<<<<< HEAD
 <Annexes/Images/tableau.png, id=139, 346.29375pt x 394.47375pt>
 File: Annexes/Images/tableau.png Graphic file (type png)
 
@@ -588,11 +735,32 @@ File: Annexes/Images/pointeurs.png Graphic file (type png)
 
 <use Annexes/Images/pointeurs.png>
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 82.
+=======
+<Annexes/Images/tableau.png, id=116, 346.29375pt x 394.47375pt>
+File: Annexes/Images/tableau.png Graphic file (type png)
+
+<use Annexes/Images/tableau.png> [23
+
+ <./Annexes/Images/tableau.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 49.
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 49.
+
+<Annexes/Images/pointeurs.png, id=120, 261.22594pt x 480.29437pt>
+File: Annexes/Images/pointeurs.png Graphic file (type png)
+
+<use Annexes/Images/pointeurs.png>
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 80.
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
 File: Annexes/Images/tableau.png Graphic file (type png)
 
+<<<<<<< HEAD
 <use Annexes/Images/tableau.png> [27 <./Annexes/Images/pointeurs.png (PNG copy)
 >] [28] <Annexes/Images/liste.jpg, id=151, 478.78876pt x 164.86594pt>
 File: Annexes/Images/liste.jpg Graphic file (type jpg)
@@ -637,10 +805,37 @@ LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+=======
+<use Annexes/Images/tableau.png> [24 <./Annexes/Images/pointeurs.png (PNG copy)
+>] [25] <Annexes/Images/liste.jpg, id=131, 478.78876pt x 164.86594pt>
+File: Annexes/Images/liste.jpg Graphic file (type jpg)
+
+<use Annexes/Images/liste.jpg>
+<Annexes/Images/liste_ajout.jpg, id=132, 477.28313pt x 232.61906pt>
+File: Annexes/Images/liste_ajout.jpg Graphic file (type jpg)
+
+<use Annexes/Images/liste_ajout.jpg>) [26 <./Annexes/Images/liste.jpg> <./Annex
+es/Images/liste_ajout.jpg>]
+Annexe D.
+[27
+
+]
+Annexe E.
+(./Annexes/levures.tex
+<Annexes/Images/lev.jpg, id=139, 834.11626pt x 834.11626pt>
+File: Annexes/Images/lev.jpg Graphic file (type jpg)
+
+<use Annexes/Images/lev.jpg> [28
+
+]) [29 <./Annexes/Images/lev.jpg>]
+(./memoir.aux)
+
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  6708 strings out of 256216
  83019 string characters out of 1917072
  148095 words of memory out of 1500000
@@ -650,10 +845,22 @@ Here is how much of TeX's memory you used:
  28i,11n,49p,1843b,1680s stack positions out of 5000i,500n,6000p,200000b,15000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
+=======
+ 6641 strings out of 256216
+ 82027 string characters out of 1917072
+ 139095 words of memory out of 1500000
+ 9728 multiletter control sequences out of 10000+200000
+ 93323 words of font info for 71 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 28i,11n,49p,1843b,1685s stack positions out of 5000i,500n,6000p,200000b,15000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 /texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm
 /lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fon
+<<<<<<< HEAD
 ts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb>
 </usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1
 /public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/sha
@@ -669,4 +876,19 @@ PDF statistics:
  257 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmtt8.pfb>
+Output written on memoir.pdf (30 pages, 10718375 bytes).
+PDF statistics:
+ 205 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 

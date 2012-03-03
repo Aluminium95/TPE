@@ -11,6 +11,7 @@
 \contentsline {section}{\numberline {3.2}Programmer le contexte}{9}
 \contentsline {section}{\numberline {3.3}Simulation et boucle principale}{10}
 \contentsline {section}{\numberline {3.4}Rectangle, la base}{11}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {3.5}L'exemple du menu}{11}
 \contentsline {subsection}{\numberline {3.5.1}Bouton}{12}
 \contentsline {subsection}{\numberline {3.5.2}Menu}{12}
@@ -59,3 +60,41 @@
 \contentsline {section}{\numberline {E.1}Les levures}{32}
 \contentsline {section}{\numberline {E.2}L\IeC {\textquoteright }exp\IeC {\'e}rience souche Ade2 et UV}{33}
 \contentsline {chapter}{\numberline {F}Sitographie et Bibliographie}{34}
+=======
+\contentsline {section}{\numberline {3.5}Le menu}{11}
+\contentsline {section}{\numberline {3.6}La gestion du temps}{12}
+\contentsline {chapter}{\numberline {4}Simulation des Cellules}{13}
+\contentsline {section}{\numberline {4.1}Choix des cellules}{13}
+\contentsline {section}{\numberline {4.2}Exp\IeC {\'e}rience personnelle}{13}
+\contentsline {subsection}{\numberline {4.2.1}Protocole}{13}
+\contentsline {subsubsection}{Mat\IeC {\'e}riel}{13}
+\contentsline {subsubsection}{\IeC {\'E}tapes}{14}
+\contentsline {subsection}{\numberline {4.2.2}Interpr\IeC {\'e}tation et r\IeC {\'e}sultats}{14}
+\contentsline {section}{\numberline {4.3}Avant d'impl\IeC {\'e}menter}{14}
+\contentsline {section}{\numberline {4.4}Cellule}{15}
+\contentsline {section}{\numberline {4.5}G\IeC {\'e}rant}{15}
+\contentsline {subsection}{\numberline {4.5.1}D\IeC {\'e}finition}{15}
+\contentsline {subsection}{\numberline {4.5.2}Manipuler les cellules}{15}
+\contentsline {subsection}{\numberline {4.5.3}Caca}{15}
+\contentsline {chapter}{\numberline {5}Simulation des UV}{16}
+\contentsline {part}{III\hspace {1em}Retrospective}{17}
+\contentsline {chapter}{\numberline {6}Programme final}{18}
+\contentsline {chapter}{\numberline {7}Limites et approfondissements}{19}
+\contentsline {chapter}{\numberline {A}D\IeC {\'e}finition de l'Algorithmie}{20}
+\contentsline {section}{\numberline {A.1}Historique}{20}
+\contentsline {section}{\numberline {A.2}Concept}{20}
+\contentsline {section}{\numberline {A.3}H\IeC {\'e}ritage}{20}
+\contentsline {chapter}{\numberline {B}Complexit\IeC {\'e} algorithmique}{22}
+\contentsline {section}{\numberline {B.1}Definition}{22}
+\contentsline {chapter}{\numberline {C}Archiver des donn\IeC {\'e}es}{23}
+\contentsline {section}{\numberline {C.1}Les Types}{23}
+\contentsline {section}{\numberline {C.2}Le pointeur}{23}
+\contentsline {section}{\numberline {C.3}Tableaux}{24}
+\contentsline {section}{\numberline {C.4}Ennum\IeC {\'e}ration}{25}
+\contentsline {section}{\numberline {C.5}Structures}{26}
+\contentsline {section}{\numberline {C.6}Listes}{26}
+\contentsline {chapter}{\numberline {D}Programmation Orient\IeC {\'e}e Objet}{27}
+\contentsline {chapter}{\numberline {E}Levures}{28}
+\contentsline {section}{\numberline {E.1}Les levures}{28}
+\contentsline {section}{\numberline {E.2}L\IeC {\textquoteright }exp\IeC {\'e}rience souche Ade2 et UV}{29}
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b

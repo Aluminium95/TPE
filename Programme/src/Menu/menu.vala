@@ -118,11 +118,19 @@ namespace Menu {
 			return nbr-1;
 		}
 		
+<<<<<<< HEAD
 		/*public int addLabel (string start) {
+=======
+		public int addLabel (string start) {
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 			var l = new Label (start,BTN_WIDTH * nbr, 0);
 			this.btns[nbr] = l;
 			this.nbr++;
 			return nbr - 1;
+<<<<<<< HEAD
 		}*/
+=======
+		}
+>>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 	}
 }
