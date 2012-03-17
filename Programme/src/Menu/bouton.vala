@@ -73,7 +73,6 @@ namespace Menu {
 		}
 	}
 
-	/*
 	public class Label : Rectangle {
 		public string text {get;set;}
 		public SDL.Surface? img;
@@ -90,5 +89,5 @@ namespace Menu {
 		public void setImg (string src) {
 			this.img = SDLImage.load (src);
 		}
-	}*/
+	}
 }

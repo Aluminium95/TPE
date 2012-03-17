@@ -14,7 +14,7 @@
    height="297mm"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.1 r9760"
+   inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="boucle_naive.svg">
   <defs
      id="defs4">
@@ -48,15 +48,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="314.99048"
+     inkscape:cx="-243.58095"
      inkscape:cy="57.142857"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1024"
-     inkscape:window-height="710"
+     inkscape:window-width="1920"
+     inkscape:window-height="1022"
      inkscape:window-x="0"
      inkscape:window-y="26"
      inkscape:window-maximized="1">
@@ -82,77 +82,75 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#808000;stroke:#000000;stroke-width:5.22138023;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#dcdc0d;stroke:#000000;stroke-width:5.22138023000000029;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
        id="rect3791"
        width="946.13171"
        height="398.00024"
        x="-68.18895"
        y="471.50479"
        ry="10.549151"
-       inkscape:export-filename="/home/aluminium95/STPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <g
-       id="g3780"
-       transform="translate(593.14286,391.42857)"
-       inkscape:export-filename="/home/aluminium95/STPE/Rapport/Images/boucle_naive.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <rect
-         ry="21.35577"
-         y="235.21933"
-         x="-314.28571"
-         height="211.42857"
-         width="251.42857"
-         id="rect2985"
-         style="fill:#008000;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text3761"
-         y="352.36218"
-         x="-254.28572"
-         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           y="352.36218"
-           x="-254.28572"
-           id="tspan3763"
-           sodipodi:role="line">Témoin</tspan></text>
-    </g>
-    <g
-       id="g3775"
-       transform="translate(354.00001,397.14285)"
-       inkscape:export-filename="/home/aluminium95/STPE/Rapport/Images/boucle_naive.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <rect
-         style="fill:#008000;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         id="rect3773"
-         width="251.42857"
-         height="211.42857"
-         x="228.57144"
-         y="229.50505"
-         ry="21.35577" />
-      <text
-         xml:space="preserve"
-         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         x="314.28571"
-         y="346.64789"
-         id="text3765"
-         sodipodi:linespacing="125%"><tspan
-           id="tspan3769"
-           sodipodi:role="line"
-           x="314.28571"
-           y="346.64789">Test</tspan></text>
-    </g>
     <rect
-       style="fill:#008080;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#00b500;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
+       id="rect2985"
+       width="251.42857"
+       height="211.42857"
+       x="278.85715"
+       y="626.64789"
+       ry="21.35577"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="338.85715"
+       y="743.79077"
+       id="text3761"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3763"
+         x="338.85715"
+         y="743.79077">Témoin</tspan></text>
+    <rect
+       ry="21.35577"
+       y="626.64789"
+       x="582.57147"
+       height="211.42857"
+       width="251.42857"
+       id="rect3773"
+       style="fill:#00ad00;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3765"
+       y="743.79071"
+       x="668.28571"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="743.79071"
+         x="668.28571"
+         sodipodi:role="line"
+         id="tspan3769">Test</tspan></text>
+    <rect
+       style="fill:#00c380;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
        id="rect3785"
        width="254.28572"
        height="225.71428"
        x="-31.714287"
        y="612.36218"
        ry="21.35577"
-       inkscape:export-filename="/home/aluminium95/STPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <text
@@ -162,7 +160,7 @@
        y="740.07648"
        id="text3787"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/aluminium95/STPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
@@ -187,7 +185,7 @@
        y="549.50507"
        id="text3797"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/aluminium95/STPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
@@ -201,8 +199,8 @@
        height="143.2581"
        width="946.13171"
        id="rect3803"
-       style="fill:#808000;stroke:#000000;stroke-width:3.13258791;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       inkscape:export-filename="/home/aluminium95/STPE/Rapport/Images/boucle_naive.png"
+       style="fill:#dcdc0d;stroke:#000000;stroke-width:3.13258790999999981;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <text
@@ -212,7 +210,7 @@
        y="998.07648"
        id="text3805"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/aluminium95/STPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
@@ -220,14 +218,14 @@
          x="168.57143"
          y="998.07648">Vérifier les évènements</tspan></text>
     <rect
-       style="fill:#808000;stroke:#000000;stroke-width:4.6255331;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#dcdc0d;stroke:#000000;stroke-width:4.62553310000000018;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
        id="rect3809"
        width="946.13171"
        height="312.34619"
        x="-68.18895"
        y="1094.9333"
        ry="8.2788582"
-       inkscape:export-filename="/home/aluminium95/STPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <text
@@ -237,74 +235,72 @@
        y="1143.7908"
        id="text3811"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/aluminium95/STPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan3813"
          x="205.71429"
          y="1143.7908">Faire un tour de cycle</tspan></text>
-    <g
-       transform="translate(390,925.42857)"
-       id="g3815"
-       inkscape:export-filename="/home/aluminium95/STPE/Rapport/Images/boucle_naive.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <rect
-         style="fill:#008000;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         id="rect3817"
-         width="251.42857"
-         height="211.42857"
-         x="-314.28571"
-         y="235.21933"
-         ry="21.35577" />
-      <text
-         xml:space="preserve"
-         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         x="-254.28572"
-         y="352.36218"
-         id="text3819"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3821"
-           x="-254.28572"
-           y="352.36218">Témoin</tspan></text>
-    </g>
-    <g
-       transform="translate(262.85715,931.14285)"
-       id="g3823"
-       inkscape:export-filename="/home/aluminium95/STPE/Rapport/Images/boucle_naive.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <rect
-         ry="21.35577"
-         y="229.50505"
-         x="228.57144"
-         height="211.42857"
-         width="251.42857"
-         id="rect3825"
-         style="fill:#008000;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text3827"
-         y="346.64789"
-         x="314.28571"
-         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           y="346.64789"
-           x="314.28571"
-           sodipodi:role="line"
-           id="tspan3829">Test</tspan></text>
-    </g>
     <rect
-       style="fill:#808000;stroke:#000000;stroke-width:3.13258791;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       ry="21.35577"
+       y="1160.6479"
+       x="75.714294"
+       height="211.42857"
+       width="251.42857"
+       id="rect3817"
+       style="fill:#00b100;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3819"
+       y="1277.7908"
+       x="135.71428"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="1277.7908"
+         x="135.71428"
+         id="tspan3821"
+         sodipodi:role="line">Témoin</tspan></text>
+    <rect
+       style="fill:#00b100;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
+       id="rect3825"
+       width="251.42857"
+       height="211.42857"
+       x="491.42859"
+       y="1160.6479"
+       ry="21.35577"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="577.14288"
+       y="1277.7908"
+       id="text3827"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         id="tspan3829"
+         sodipodi:role="line"
+         x="577.14288"
+         y="1277.7908">Test</tspan></text>
+    <rect
+       style="fill:#dcdc0d;stroke:#000000;stroke-width:3.13258790999999981;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
        id="rect3831"
        width="946.13171"
        height="143.2581"
        x="-68.18895"
        y="1452.0762"
        ry="3.7971117"
-       inkscape:export-filename="/home/aluminium95/STPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <text
@@ -314,7 +310,7 @@
        x="168.57143"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        xml:space="preserve"
-       inkscape:export-filename="/home/aluminium95/STPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          y="1535.2194"
@@ -327,7 +323,7 @@
        id="path3839"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc"
-       inkscape:export-filename="/home/aluminium95/STPE/Rapport/Images/boucle_naive.png"
+       inkscape:export-filename="/home/aluminium95/Documents/Lycée/Première/TPE/TPE/Rapport/Images/boucle_naive.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
   </g>

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 \documentclass[a4paper,15pt]{report}
-=======
-\documentclass[a4paper,13pt]{report}
->>>>>>> 59e5d45cfb64c9e07b007057e56d42745e3a510b
 \usepackage[T1]{fontenc}
 \usepackage[utf8x]{inputenc}
 \usepackage[francais]{babel}
@@ -33,26 +29,25 @@
 
 \lstset{numbers=left, frame=single}
 
-<<<<<<< HEAD
 \title{
 Travail Personnel Encadré \\
 Comment résoudre un problème avec un programme ?
 }
 \author{
+  \textsc{Sévigné} Alfred \and 
   \textsc{Lopez} Aliaume \and 
-  \textsc{Desmarais} Yann \and 
-  \textsc{Sévigné} Alfred
+  \textsc{Desmarais} Yann
   \thanks{
      Remerciements
   } \and  \\
   Lycée Georges Pompidou, 1S1
-
+}
 
 \begin{document}
 
 \maketitle
 
-\section*{Introduction}
+\section*{Introduction du Sujet}
   \input{Parties/Yann/intro.tex}
   
 \tableofcontents
@@ -63,18 +58,17 @@ Comment résoudre un problème avec un programme ?
   \chapter{Cahier des charges de la simulation}
     \input{Parties/Alfred/global.tex}
      
-\part{Réalisation du projet}
-  \chapter{Le programme}
+\part{Réalisation du projet final}
+  \chapter{Le programme général}
     \input{Parties/Ali/programme.tex}
-<<<<<<< HEAD
   \chapter{Études sur les cellules}
-		\input{Parties/Yann/cellules.tex}
-  \chapter{Réalisation des cellules}
+	\input{Parties/Yann/cellules.tex}
+  \chapter{Réalisation de la simulation}
      \input{Parties/Ali/cellules.tex}
 \part{Rétrospective}
-  \chapter{Programme final}
+  \chapter{Le programme face aux attentes}
     \input{Parties/Yann/programmeretro.tex}
-  \chapter{Limites et approfondissements}
+  \chapter{Limites et approfondissements du programme}
      \input{Parties/Ali/limites.tex}
 
 \begin{appendix}
@@ -97,9 +91,10 @@ Comment résoudre un problème avec un programme ?
   \input{Graphie/biblio.tex}
   
 \part*{Fiches de Synthèse Personnelles}
-  \chapter*{\textsc{Lopez} Aliaume}
-    \input{Parties/Delation/ali.tex}
-  \chapter*{\textsc{Desmarais} Yann}
   \chapter*{\textsc{Sévigné} Alfred}
     \input{Parties/Delation/alf.tex}
+  \chapter*{\textsc{Desmarais} Yann}
+    \input{Parties/Delation/yann.tex}
+  \chapter*{\textsc{Lopez} Aliaume}
+    \input{Parties/Delation/ali.tex}
 \end{document}

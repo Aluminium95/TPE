@@ -2,7 +2,7 @@ Dans ce TPE dédié à la réalisation d'une simulation, nous allons devoir pose
 
 Nous tenterons de mettre en relation la programmation et les mathématiques, de manière à bien faire comprendre des concepts qui peuvent paraître abstrait de prime abord.
 
-Cette annexe ne concerne aucunement l'algorithmique. L'algorithmique est un langage impératif, qui n'utilise que des nombres, et qui n'a aucun concept avancé. En somme c'est la base des langages, mais depuis il y a eu des évolutions, qui permettent de faire des choses beaucoup plus facilement, ou simplement d'aborder des problèmes différemment, nous utiliserons donc les fonctionnalités du Vala.
+Vala est un langage dit «~haut niveau~», c'est à dire qu'il permet de faire simplement des choses complexes, et qu'il permet à certain moment une certaine abstraction du fonctionnement de la machine. Contrairement à des langages dits «~bas niveau~» qui collent directement au fonctionnement de la machine. Il en découle que ce que nous dirons ici, n'est valable que pour une certaine catégories de langages, et que la syntaxe que nous utiliserons, dans un souci de simplicité, sera uniquement celle du Vala.
 
 Si vous avez déjà quelques notions en algorithmie, vous n'aurez pas besoin de lire le chapitre sur les variables, mais le chapitre sur les fonctions vous sera utile quelque soit votre niveau.
 
@@ -11,7 +11,7 @@ Si vous avez déjà quelques notions en algorithmie, vous n'aurez pas besoin de 
   \begin{lstlisting}
     int a = 6;
   \end{lstlisting}
-  Ce crée une boite appelée «~a~» qui est de type «~int~»\footnote{Integer : entier -> nombre. Pour une liste des types voir l'annexe \ref{DefTypes}}, et qui a pour valeur «~6~», le point virgule signifie la fin d'une commande. Cette opération est nommée affectation.
+  Ce code crée une boite étiquetée «~a~» qui est de type «~int~»\footnote{int est l'abréviation d'integer, soit un nombre entier. La liste des principaux types du vala est visible dans l'annexe \ref{DefTypes}}, et qui a pour valeur «~6~», le point virgule signifie la fin d'une commande. Cette opération est nommée affectation.
   
   En parlant d'opération, il en existe un certain nombre : 
   \begin{itemize}
@@ -19,7 +19,7 @@ Si vous avez déjà quelques notions en algorithmie, vous n'aurez pas besoin de 
     \item soustraction avec le symbole «~-~»
     \item division avec le symbole «~/~»
     \item multiplication avec le symbole «~*~»
-    \item modulo avec le symbole «~\%~»
+    \item modulo\footnote{Le modulo est le reste d'une division euclidienne} avec le symbole «~\%~»
   \end{itemize}
   
   La priorité opératoire suit les mêmes idiomes que les mathématiques. Les calculs peuvent comporter des variables : 
@@ -29,17 +29,15 @@ Si vous avez déjà quelques notions en algorithmie, vous n'aurez pas besoin de 
     a = b + 3;
   \end{lstlisting}
   
-  Après avoir définit une variable, son contenu peut encore changer\footnote{Dans certains langages exotiques, ce n'est pas le cas}.
-
-  Il existe différents types, mais le plus utilisé est le type nombre (int), et le type nombre à virgule (float).
+  Après avoir définit une variable, son contenu peut encore changer durant le reste du programme.
   
 \section{Contrôles}
   Encore une fois cette section peut être passée par les personnes qui ont déjà une idée sur l'algorithmie.
   Les structures de contrôle sont une partie d'un langage, voici des contrôles les plus courants en Vala :
   \begin{description}
-    \item[ if (condition) / else if (condition) / else ] : si une condition est vraie, sinon si une autre est vraie, sinon si aucune des précédentes n'a été vérifiée
-    \item[while (condition)] : tant qu'une condition est vérifier, exécuter le code suivant
-    \item[for (a = depart; condition; a += ?)] : équivalent d'une somme algébrique mathématique, pour a qui vaut «~depart~», tant que la «~condition~» est vérifiée, et pour a qui à chaque tour de boucle augmente de ?
+    \item[ if (condition) { code } else if (condition) { code } else { code } ] : si une condition est vraie alors on exécute le code entre accolades, sinon si une autre est vraie\footnote{Sous-entendu uniquement si la précédente à échoué} on exécute le code entre accolades, sinon si aucune des précédentes n'a été vérifiée on exécute le code entre accolades
+    \item[while (condition) { code }] : tant qu'une condition est vérifier, exécuter le code suivant
+    \item[for (a = depart; condition; a += ?) { code }] : effectue la boucle tant que la condition est vraie, mais à chaque fois, la variable a est modifiée, généralement on met \texttt{a} dans la condition de manière à répéter un certain nombre de fois une action.
   \end{description}
   
   Exemples :
@@ -65,9 +63,9 @@ Si vous avez déjà quelques notions en algorithmie, vous n'aurez pas besoin de 
   \[ f(x) = x^2 + 3x + 5 \]
   En Vala on la notera :
   \begin{lstlisting}
-    // le int devant le f indique le type de retour
+    // le int devant le f indique le type de la valeur de retour
     int f (int x) {
-      return x * x + 3 * x + 5;
+      return x * x + 3 * x + 5; // la fonction renvoie la valeur du calcul suivant
     }
   \end{lstlisting}
   
@@ -88,7 +86,7 @@ Si vous avez déjà quelques notions en algorithmie, vous n'aurez pas besoin de 
     }
   \end{lstlisting}
   
-  Ici on utilise une boucle pour effectuer un certain nombre d'action, mais on peut aussi utiliser une fonction dite «~récursive~» c'est à dire qui s'appelle elle même : 
+  Ici on utilise une boucle pour effectuer un certain nombre d'action, mais on peut aussi utiliser une fonction dite «~récursive~» c'est à dire qui s'appelle elle même lors de son exécution : 
   \begin{lstlisting}
     int factorielle (int x) {
       if (x == 1) { 
@@ -101,4 +99,4 @@ Si vous avez déjà quelques notions en algorithmie, vous n'aurez pas besoin de 
   
   Attention, il faut bien définir au moins un cas ou la fonction ne s'appelle pas, sinon elle est infinie !
   
-  Les fonctions peuvent donc prendre en paramètre n'importe quel type, retourner n'importe quel type, et faire un tas de calculs intermédiaires avant de retourner quelque chose, ou de ne rien retourner. Par exemple la fonction SDL qui affiche un rectangle sur l'écran ne retourne rien, elle se contente de faire un tas de calculs, de modifier des variables, et s'arrête quand le pixel est affiché.
+  Les fonction peuvent prendre des paramètres de n'importe quel type, elles peuvent avoir une valeur de retour de n'importe quel type, et peuvent faire autant de calculs intermédiaires qu'elles veulent avant de donner une valeur de retour, ou même de ne renvoyer aucune valeur. Par exemple la fonction de la SDL qui permet d'afficher un pixel à l'écran, ne renvoie rien, elle se contente d'afficher un pixel.

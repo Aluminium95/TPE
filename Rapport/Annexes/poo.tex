@@ -13,27 +13,27 @@
     un patron, une définition d'un objet. Chaque «~classe~» définit la structure d'un type
     d'objet. Cette définition contient des variables «~membres~», et des fonctions membres dites «~méthodes~».
     
-    Imaginons une Classe «~humain~», qui a des variables \textit{internes} et
+    Imaginons une Classe \texttt{humain}, qui a des variables \textit{internes} et
     des fonctions \textit{internes}. On pourra créer des objets à partir de ces patrons. C'est à dire 
-    créer un être humain à partir de la classe qui définit «~humain~» pour conserver l'exemple. Chaque objet 
+    créer un être humain à partir de la classe qui définit \texttt{humain} pour conserver l'exemple. Chaque objet 
     à la même structure, mais peut évoluer différemment au cours de l’exécution. On peut créer
-    deux humains avec une variable «~couleur des yeux~» par exemple. Pour le premier elle peut valoir «~bleu~» et pour le second «~vert~». La différence entre une classe et une structure est qu'une Classe 
-    peut contenir des variable ET des fonctions. Par exemple la fonction «~direBonjour~» de la 
-    Classe «~humain~» utilise la variable «~nom~» et écrit : bonjour, je m'appelle + nom.
+    deux humains avec une variable \texttt{couleur des yeux} par exemple. Pour le premier elle peut valoir \texttt{bleu} et pour le second \texttt{vert}. La différence entre une classe et une structure est qu'une Classe 
+    peut contenir des variable ET des fonctions. Par exemple la fonction \texttt{direBonjour} de la 
+    Classe \texttt{humain} utilise la variable \texttt{nom} et écrit : bonjour, je m'appelle + nom.
     Cette même fonction aura des effets différent sur différents objets.
     
     Une classe peut avoir comme variable membre n'importe quel type. Comme une classe est un type, une classe peut en contenir une autre, c'est même toute l'utilité en général.
   \section{Héritage}
     Une notion très importante qui vient avec la POO est l'héritage. Un exemple vaut tout les discours :
       \begin{itemize}
-        \item Une classe «~Humain~»
-        \item Une classe «~Femme~» qui hérite d'Humain
-        \item Une classe «~Homme~» qui hérite d'Humain
+        \item Une classe \texttt{Humain}
+        \item Une classe \texttt{Femme} qui hérite d'\texttt{Humain}
+        \item Une classe \texttt{Homme} qui hérite d'\texttt{Humain}
       \end{itemize}
     
-    La classe humain définit des variables et fonctions propres aux humains. Ces fonctions sont réutilisées dans la classe Homme et la classe Femme, qui sont des humains, mais avec des caractéristiques supplémentaires et des réactions différentes. Au lieu de réécrire deux fois toutes les fonctions et attributs d'Humain dans les classes Femme et Homme, on créer une classe qui les regroupes, et on fait hériter Homme et Femme de celle ci.
+    La classe \texttt{Humain} définit des variables et fonctions propres aux humains. Ces fonctions sont réutilisées dans la classe \texttt{Homme} et la classe \texttt{Femme}, qui sont des humains, mais avec des caractéristiques supplémentaires et des réactions différentes. Au lieu de réécrire deux fois toutes les fonctions et attributs d'\texttt{Humain} dans les classes \texttt{Femme} et \texttt{Homme}, on créer une classe qui les regroupes, et on fait hériter \texttt{Homme} et \texttt{Femme} de celle ci.
     
-    En plus de permettre une certaine paresse, cette méthode a le mérite de permettre une chose : homme et femme peuvent être considérés comme des humains. Si on veut créer une fonction qui compare la taille de deux 
+    En plus de permettre une certaine paresse, cette méthode a le mérite de permettre une chose : \texttt{Homme} et \texttt{Femme} peuvent être considérés comme des \texttt{Humain}. Si on veut créer une fonction qui compare la taille de deux 
     personnes, on a juste à faire ceci :
     \begin{lstlisting}
       bool plus_grand_que (Humain p, Humain s) {
@@ -45,7 +45,6 @@
       }
     \end{lstlisting}
     
-    On peut donner à cette fonction aussi bien deux femmes, deux hommes ou un homme et un femme. Étant donné qu'ils sont tous «~convertibles~» en Humain.
+    On peut donner à cette fonction aussi bien deux \texttt{Femme}, deux \texttt{Homme} ou un \texttt{Homme} et un \texttt{Femme}. Étant donné qu'ils sont tous «~convertibles~» en \texttt{Humain}.
     
-    Il existe d'autres principes dans la POO que nous n'aborderons pas ici simplement parce que c'est une annexe, qui même si elle est nécessaire à la compréhension, n'est pas le centre du TPE du tout.
-
+    Il existe d'autres principes dans la POO que nous n'aborderons pas ici simplement parce que c'est une annexe, qui même si elle est nécessaire à la compréhension, n'est pas le centre de ce TPE.
